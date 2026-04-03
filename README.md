@@ -1,103 +1,99 @@
-🏦 Bank Management System (Python)
+🏦** BANK MANAGEMENT SYSTEM**
 
-A simple Bank Management System built using Python with file handling.
-This project allows customers to create accounts, perform transactions, and administrators to approve accounts.
+Version 1 – File Handling
 
----
+Version 2 – SQL (SQLite)
 
-🚀 Features
+- A secure, user-friendly, and robust Bank Management System built using Python.
+- 
+This project simulates real-world banking operations for both customers and admins.
+It was initially developed using File Handling (Version 1) and later enhanced with SQLite (Version 2) for better performance, reliability, and persistent storage.
 
-👤 Customer Features
 
-- Apply for new account
-- Secure PIN (SHA256 hashing)
-- Deposit money (Credit)
-- Withdraw money (Debit)
-- Balance enquiry
-- Transaction history
-- Add interest (5%)
-- Close account
-- Logout
 
-🛠 Admin Features
+**🌟 Why This Project?**
+
+This project is perfect for:-
+
+- Learning Python programming with practical applications
+- Understanding data storage with files and databases
+- Practicing security concepts (hashed PINs)
+- Simulating a banking system workflow
+
+  
+**🚀 Features**
+
+
+**👤 Customer Features**
+
+
+- Open a new account easily and securely
+- Secure PIN stored using SHA256 hashing for protection
+- Deposit and withdraw money with ease
+- Check account balance anytime
+- View transaction history for transparency
+- Earn interest (5%) on account balance
+- Close account safely when needed
+- Logout securely
+
+  
+**🛠 Admin Features**
+
 
 - Admin login authentication
 - View pending account requests
-- Approve customer accounts
+- Approve or reject customer accounts
 
----
+  
+**📂 Version 1 – File Handling**
 
-📂 Files Used
 
-- "accounts.dat" → Stores account details
-- "transactions.dat" → Stores transaction history
+- Stores account details in accounts.dat
+- Stores transaction history in transactions.dat
+- Files are automatically created when the program runs
+- Simple and easy to understand for beginners
+- Run Version 1:
+  
+-Bash:-
+    python bank.py
+⚠️ Best for learning file-based data management and basic banking workflows.
 
-Both files are automatically created when the program runs.
 
----
+**🗄 Version 2 – SQL (SQLite)**
 
-🔐 Default Admin Login
+- Uses SQLite database to store accounts and transactions
+- Database is automatically created on first run
+- Provides faster, reliable, and persistent data storage
+- Supports real-world banking simulation with proper data management
+- Run Version 2:
+  
+- Bash:-
+     python main.py
+⚡ Ideal for production-level projects and professional practice.
 
-Username: "admin"
-Password: "1234"
 
----
+**🔐 Default Admin Login**
 
-🧠 How It Works
 
-1. Customer applies for account
-2. Account status is PENDING
-3. Admin approves account
-4. Customer logs in
-5. Customer performs banking operations
+- Username: admin
+- Password: 1234
+💡 You can change these credentials in the code for enhanced security.
 
----
 
-▶️ How to Run
+**🔒 Security**
 
-Make sure Python is installed, then run:
 
-python bank.py
+- PINs are securely hashed using SHA256
+- Account status controlled: PENDING / ACTIVE / CLOSED
+- Only approved accounts can perform transactions
+- Transaction timestamps are recorded for accountability
 
----
+  
+**🛠 Technologies Used**
 
-📋 Menu Options
 
-Main Menu
-
-1. Apply New Account
-2. Customer Login
-3. Admin Login
-4. Exit
-
----
-
-💰 Interest
-
-- Interest Rate: 5%
-- Applied manually using "Add Interest" option
-
----
-
-🔒 Security
-
-- PIN stored using SHA256 hashing
-- Account status control (PENDING / ACTIVE / CLOSED)
-
----
-
-🧾 Example Transaction Record
-
-1001|CREDIT|5000|2026-04-03 14:22:11
-1001|DEBIT|1000|2026-04-03 14:25:02
-
----
-
-🛠 Technologies Used
-
-- Python
-- File Handling
-- Hashlib (Security)
-- Datetime
-
----
+- Python – Core programming language
+- File Handling – For Version 1 data storage
+- SQLite (SQL) – For Version 2 database storage
+- Hashlib – For secure PIN hashing
+- Datetime – For transaction timestamping
