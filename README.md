@@ -44,7 +44,19 @@ This project is perfect for:-
 - View pending account requests
 - Approve or reject customer accounts
 
-  
+
+**📁 Project Structure**
+
+
+Bank-Management-System/
+│
+├── bank.py        # Version 1 (File Handling)
+├── main.py        # Version 2 (SQLite)
+├── accounts.dat   # Auto created
+├── transactions.dat # Auto created
+└── bank.db        # Auto created
+
+
 **📂 Version 1 – File Handling**
 
 
