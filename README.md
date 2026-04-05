@@ -1,17 +1,17 @@
-🏦** BANK MANAGEMENT SYSTEM**
+** BANK MANAGEMENT SYSTEM**
 
 Version 1 – File Handling
 
 Version 2 – SQL (SQLite)
 
 - A secure, user-friendly, and robust Bank Management System built using Python.
-- 
+  
 This project simulates real-world banking operations for both customers and admins.
 It was initially developed using File Handling (Version 1) and later enhanced with SQLite (Version 2) for better performance, reliability, and persistent storage.
 
 
 
-**🌟 Why This Project?**
+** Why This Project?**
 
 This project is perfect for:-
 
@@ -21,10 +21,10 @@ This project is perfect for:-
 - Simulating a banking system workflow
 
   
-**🚀 Features**
+** Features**
 
 
-**👤 Customer Features**
+** Customer Features**
 
 
 - Open a new account easily and securely
@@ -45,7 +45,7 @@ This project is perfect for:-
 - Approve or reject customer accounts
 
 
-**📁 Project Structure**
+** Project Structure**
 
 
 Bank-Management-System/
@@ -57,7 +57,7 @@ Bank-Management-System/
 └── bank.db        # Auto created
 
 
-**📂 Version 1 – File Handling**
+**Version 1 – File Handling**
 
 
 - Stores account details in accounts.dat
@@ -68,10 +68,10 @@ Bank-Management-System/
   
 -Bash:-
     python bank.py
-⚠️ Best for learning file-based data management and basic banking workflows.
+ Best for learning file-based data management and basic banking workflows.
 
 
-**🗄 Version 2 – SQL (SQLite)**
+** Version 2 – SQL (SQLite)**
 
 - Uses SQLite database to store accounts and transactions
 - Database is automatically created on first run
@@ -81,18 +81,18 @@ Bank-Management-System/
   
 - Bash:-
      python main.py
-⚡ Ideal for production-level projects and professional practice.
+ Ideal for production-level projects and professional practice.
 
 
-**🔐 Default Admin Login**
+** Default Admin Login**
 
 
 - Username: admin
 - Password: 1234
-💡 You can change these credentials in the code for enhanced security.
+   You can change these credentials in the code for enhanced security.
 
 
-**🔒 Security**
+** Security**
 
 
 - PINs are securely hashed using SHA256
@@ -100,8 +100,7 @@ Bank-Management-System/
 - Only approved accounts can perform transactions
 - Transaction timestamps are recorded for accountability
 
-  
-**🛠 Technologies Used**
+  **Technologies Used**
 
 
 - Python – Core programming language
