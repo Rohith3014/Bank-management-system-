@@ -2,7 +2,7 @@
 
 Version 1 – File Handling
 
-Version 2 – SQL (SQLite)
+Version 2 – SQL [MySQL]
 
 - A secure, user-friendly, and robust Bank Management System built using Python.
   
@@ -51,7 +51,7 @@ This project is perfect for:-
 Bank-Management-System/
 │
 ├── bank.py        # Version 1 (File Handling)
-├── main.py        # Version 2 (SQLite)
+├── main.py        # Version 2 [MySQL]
 ├── accounts.dat   # Auto created
 ├── transactions.dat # Auto created
 └── bank.db        # Auto created
@@ -71,9 +71,9 @@ Bank-Management-System/
  Best for learning file-based data management and basic banking workflows.
 
 
-** Version 2 – SQL (SQLite)**
+** Version 2 – SQL [MySQL]**
 
-- Uses SQLite database to store accounts and transactions
+- Uses MySQL database to store accounts and transactions
 - Database is automatically created on first run
 - Provides faster, reliable, and persistent data storage
 - Supports real-world banking simulation with proper data management
@@ -105,6 +105,6 @@ Bank-Management-System/
 
 - Python – Core programming language
 - File Handling – For Version 1 data storage
-- SQLite (SQL) – For Version 2 database storage
+- MySQL (SQL) – For Version 2 database storage
 - Hashlib – For secure PIN hashing
 - Datetime – For transaction timestamping
