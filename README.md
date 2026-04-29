@@ -4,7 +4,7 @@
 This project was developed in two stages:
 
 - **Version 1:** Implemented using Python File Handling for basic data storage  
-- **Version 2:** Upgraded to MySQL database for improved performance, scalability, and data management  
+- **Version 2:** Upgraded to MySQL database for improved performance, scalability, and data management    
 
 -----
 
