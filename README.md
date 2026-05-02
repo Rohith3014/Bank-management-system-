@@ -1,14 +1,14 @@
 
-## 🔄 Project Evolution
+##  Project Evolution
 
 This project was developed in two stages:
 
-- **Version 1:** Implemented using Python File Handling for basic data storage  
-- **Version 2:** Upgraded to MySQL database for improved performance, scalability, and data management    
+**Version 1:** Implemented using Python File Handling for basic data storage  
+**Version 2:** Upgraded to MySQL database for improved performance, scalability, and data management    
 
 -----
 
-## 🚀 Why Upgrade to MySQL?
+##  Why Upgrade to MySQL?
 
 - File handling has limitations in scalability  
 - Data retrieval is slower and less efficient  
@@ -18,7 +18,7 @@ This project was developed in two stages:
 
 -----
 
-## 📈 Improvements After Upgrade
+## Improvements After Upgrade
 
 - Faster data access using SQL queries  
 - Improved data integrity with constraints  
