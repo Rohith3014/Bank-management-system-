@@ -21,7 +21,6 @@ This project was developed in two stages:
 ## Improvements After Upgrade
 
 - Faster data access using SQL queries  
-- Improved data integrity with constraints  
 - Better handling of large data  
 - More realistic banking system simulation  
 
